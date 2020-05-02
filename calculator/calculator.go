@@ -15,3 +15,12 @@ func Sub(a, b int) int {
 func Mul(a, b int) int {
 	return a * b
 }
+
+func MultiMul(values ...int) int {
+	accumulator := 0
+	for _, v := range values {
+		accumulator *= v
+	}
+
+	return accumulator
+}
