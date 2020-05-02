@@ -13,7 +13,7 @@ func Sub(a, b int) int {
 }
 
 func Mul(values ...int) int {
-	accumulator := 0
+	accumulator := 1
 	for _, v := range values {
 		accumulator *= v
 	}
