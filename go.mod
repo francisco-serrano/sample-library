@@ -1,1 +1,3 @@
-module "github.com/francisco-serrano/sample-library"
+module github.com/francisco-serrano/sample-library
+
+go 1.14

@@ -1,7 +1,12 @@
 package calculator
 
-func Add(a, b int) int {
-	return a + b
+func Add(values ...int) int {
+	sum := 0
+	for _, v := range values {
+		sum += v
+	}
+
+	return sum
 }
 
 func Sub(a, b int) int {
