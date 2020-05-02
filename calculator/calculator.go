@@ -24,3 +24,7 @@ func MultiMul(values ...int) int {
 
 	return accumulator
 }
+
+func DoSomething() string {
+	return "something"
+}
