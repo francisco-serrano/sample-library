@@ -5,7 +5,6 @@ func Add(values ...int) int {
 	for _, v := range values {
 		sum += v
 	}
-
 	return sum
 }
 
